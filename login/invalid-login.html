@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="urf-8">
+        <title>Login Page</title>
+        <style>
+            #invalid {color: red};
+        </style>
+        <link type="text/css" rel="stylesheet" href="../styles/sidebar.css">
+        <link type="text/css" rel="stylesheet" href="../styles/login.css">
+        <link type="text/css" rel="stylesheet" href="../styles/main.css">
+    </head>
+    <body>
+        <div class="sidebar">
+            <div class="sidebar-left">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="#" onclick="alert('Work in progress...');">About Me</a></li>
+                    <li><a href="#" onclick="alert('Work in progress...');">Projects</a></li>
+                    <li><a href="#" onclick="alert('Work in progress...');">Contacts</a></li>
+                    <li><a href="login-page.html">Login</a></li>
+                    <li><a href="#" onclick="alert('Work in progress...');">Account</a></li>
+                    <li><a href="#" onclick="alert('Work in progress...');">Language</a></li>
+                </ul>
+            </div>
+            <div class="sidebar-right">
+                <ul>
+                    <li><h3 class="sidebar-right-heading">Projects</h3></li>
+                    <li><a href="https://github.com/MonotonB/MonotonDev_BOT-English">Telegram Bot</a></li>
+                    <li><a href="https://github.com/MonotonB/MonotonB.github.io">Monoton Site</a></li>
+                    <li><h3 class="sidebar-right-heading">Contacts</h3></li>
+                    <li><a href="https://t.me/AndreyTkac">Telegram</a></li>
+                    <li>Discord</li>
+                    <li><h3 class="sidebar-right-heading">Other</h3></li>
+                    <li><a href="https://github.com/MonotonB">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <h1 class="heading">Login</h1>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username">
+                <br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password">
+                <br><br>
+                <input type="button" value="Login" onClick="checkUsernamePassword()">
+            </form>
+            <script src="../scripts/login.js"></script>
+            <p id="invalid">Invalid login or password!</p>
+        </div>
+    </body>
+</html>
