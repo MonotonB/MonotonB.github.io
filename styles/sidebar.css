@@ -41,16 +41,16 @@
 @media only screen and (max-width: 600px) {
     .content {
         margin-left: 100px;
-        font-size: medium;
+        font-size: large;
     }
 
     .sidebar-left {
         width: 120px;
-        font-size: medium;
+        font-size: large;
     }
 
     .sidebar-right {
         width: 80px;
-        font-size: medium;
+        font-size: large;
     }
 }
