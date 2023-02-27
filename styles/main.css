@@ -25,3 +25,9 @@ blockquote {
 a:hover {
     color: #ff0000
 }
+
+@media only screen and (max-width: 600px) {
+    p {
+        font-size: large;
+    }
+}
