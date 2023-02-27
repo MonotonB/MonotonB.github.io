@@ -8,14 +8,14 @@
     width: 180px;
     float: left;
     position: fixed;
-    background: black;
+    background: azure;
     padding: 20px;
 }
 .sidebar-right {
     width: 150px;
     right: 0;
     position: fixed;
-    background: black;
+    background: azure;
     padding: 20px;
 }
 .sidebar-right-heading {
