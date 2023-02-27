@@ -7,7 +7,7 @@ function checkUsernamePassword() {
     for (var i = 0; i < passwordList.length; i++) {
         if (username == usernameList[i] && password == passwordList[i]) {
             window.location = "../index.html";
-            alert('Welcome back, ' + username + '!')
+            alert('Welcome back, ' + username + '!');
             isLogin = true;
         }
         else if (!isLogin) {
